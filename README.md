@@ -17,7 +17,7 @@ Arbitrage buys from one Dex and sells to the other Dex. //<-- probable error her
 
 To run this simulation and see errors in RED.  
 In terminal 1: $ anvil  
-In terminal 2: flash-loan-simulation$ ./run.sh   
+In terminal 2: $ ./run.sh   
 
 Dependencies:  
 https://book.getfoundry.sh/getting-started/installation    
