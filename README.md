@@ -1,5 +1,5 @@
 Flashloan simulation with DEX arbitrage.  
-MockFlashLoanProvider simulates Equalizer Finance wti zero fee.  
+MockFlashLoanProvider simulates Equalizer Finance with zero fee.  
 XToken is a generic ERC20 token having different values on different dexes.  
 Dex 1 & 2 are two different dexes (addresses) that holds a XToken of various values.  
 Argitrage will make the actual swap.  
