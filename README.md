@@ -11,10 +11,10 @@ DexTokenPrices are compared to detrmine arbigtrage direction.
 SwapAmount is determined to be the lowest balanceOf value of the Tokens per dex.  
 XToken -> MockFlashLoanProvider  
 Arbitrage flashloan <- MockFlashLoanProvider  
-Arbitrage buys from one Dex and sells to the other Dex. //<-- probable error here, Arbitrage deos not own XTokens borrowed. 
+Arbitrage buys from one Dex and sells to the other Dex. //<-- probable error here, Arbitrage deos not own XTokens borrowed.   
 
 
 
-To run this simulation and see errors in RED.
-In terminal 1: $ anvil
-In terminal 2: flash-loan-simulation$ ./run.sh
+To run this simulation and see errors in RED.  
+In terminal 1: $ anvil  
+In terminal 2: flash-loan-simulation$ ./run.sh  
