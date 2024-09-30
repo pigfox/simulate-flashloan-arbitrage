@@ -19,6 +19,7 @@ Once this step has been accomplished Arbitrage will repay the flashloah to MockF
 To run this simulation and see errors in RED.  
 In terminal 1: $ anvil  
 In terminal 2: $ ./run.sh   
+Make sure run.sh is executable or copy lines and run manually in terminal 2.  
 
 Dependencies:  
 https://book.getfoundry.sh/getting-started/installation    
