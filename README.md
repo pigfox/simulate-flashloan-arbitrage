@@ -4,15 +4,16 @@ XToken is a generic ERC20 token having different values on different dexes.
 Dex 1 & 2 are two different dexes (addresses) that holds a XToken of various values.  
 Argitrage will make the actual swap.  
 
-After contract initializations the contract will be supplied with XTokens.  
+After contract initializations the contracts will be supplied with XTokens.  
 The dexes will be assigned various XToken values per dex.  
 If dex1TokenPrice == dex2TokenPrice no arbitrage opportunity exists.  
-DexTokenPrices are compared to detrmine arbigtrage direction.  
+DexTokenPrices are compared to determine arbigtrage direction.  
 SwapAmount is determined to be the lowest balanceOf value of the Tokens per dex.  
+    
 XToken -> MockFlashLoanProvider  
 Arbitrage flashloan <- MockFlashLoanProvider  
-Arbitrage buys from one Dex and sells to the other Dex. //<-- probable error here, Arbitrage deos not own XTokens borrowed.   
-
+Arbitrage buys from one Dex and sells to the other Dex. (Buy low and sell high) //<-- probable error here, Arbitrage does not own XTokens borrowed??  
+Once this step has been accomplished Arbitrage will repay the flashloah to MockFlashLoanProvider.    
 
 
 To run this simulation and see errors in RED.  
